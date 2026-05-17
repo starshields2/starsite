@@ -127,14 +127,13 @@ export const Hero = () => {
         <HeroContent>
           <div>
             <Title role="heading" aria-level={2}>
-              Hi, I'm [Your Name]
+              Hi, I'm Star!
             </Title>
             <Subtitle role="heading" aria-level={3}>
-              Full Stack Developer
+              Whatever I am
             </Subtitle>
             <Description role="paragraph">
-              I create elegant solutions to complex problems, specializing in modern web development
-              with a focus on user experience and clean code.
+              I do a ton of stuff.
             </Description>
             <SocialLinks role="list" aria-label="Social media links">
               <a 
