@@ -178,21 +178,30 @@ const ProjectLinks = styled.div`
 const projects = [
   {
     id: 1,
-    title: "Project One",
-    description: "A full-stack web application with real-time features and modern UI/UX design.",
+    title: "Wanderer",
+    description: "An Android/iOS project dedicated to simulating fish in the Dallas Trinity River.",
     image: "https://via.placeholder.com/400x200",
-    techStack: ["React", "Node.js", "MongoDB", "Socket.IO"],
+    techStack: ["Unity C#", "Android SDKs", "Testflight", "VSCode"],
+    githubUrl: "https://github.com/starshields2/WandererRepo",
+    liveUrl: "https://example.com", //to the app store?
+  },
+  {
+    id: 2,
+    title: "SubVRsive Wonderfilm",
+    description: "Internal marketing tool for branding.",
+    image: "https://via.placeholder.com/400x200",
+    techStack: ["Niantic 8thwall", "TypeScript", "3js"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
   {
-    id: 2,
-    title: "Project Two",
-    description: "Mobile-first e-commerce platform with seamless payment integration.",
+    id: 3,
+    title: "Yasuke: A Lost Descendant",
+    description: "Afrofuturistic cyberpunk hack and slash...",
     image: "https://via.placeholder.com/400x200",
-    techStack: ["Next.js", "TypeScript", "Stripe", "Tailwind"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    techStack: ["Unreal Engine 5", "Blueprints", "C++"],
+    //githubUrl: "https://github.com",
+    liveUrl: "https://www.youtube.com/watch?v=p1evCNCM9J0",
   },
 ];
 

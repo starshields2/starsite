@@ -193,25 +193,24 @@ const Contact = () => {
             role="heading"
             aria-level={2}
           >
-            Get In Touch
+            Contact me!
           </SectionTitle>
           <ContactContent role="article">
             <ContactText 
               variants={itemVariants}
               role="paragraph"
             >
-              I'm always interested in hearing about new projects and opportunities.
-              Whether you have a question or just want to say hi, feel free to reach out!
+              Feel free to reach out!
             </ContactText>
             <ContactEmail 
-              href="mailto:your.email@example.com"
+              href="mailto:starshields@proton.me"
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              aria-label="Send me an email at your.email@example.com"
+              aria-label="Send me an email at starshields@proton.me"
             >
               <FaEnvelope aria-hidden="true" />
-              <span>your.email@example.com</span>
+              <span>starshields@proton.me</span>
             </ContactEmail>
             <SocialLinks 
               variants={itemVariants}
@@ -219,7 +218,7 @@ const Contact = () => {
               aria-label="Social media links"
             >
               <SocialLink 
-                href="https://github.com"
+                href="https://github.com/starshields2"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
@@ -230,7 +229,7 @@ const Contact = () => {
                 <span className="sr-only">GitHub</span>
               </SocialLink>
               <SocialLink 
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/sam-obuobi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
