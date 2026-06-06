@@ -64,14 +64,14 @@ Edit the following files to customize your portfolio:
 
 This template is configured for GitHub Pages deployment by default. The `vite.config.ts` is set up with:
 ```typescript
-base: '/portfolio-01/'  // Change this to your repo name
+base: '/starsite/'  // Change this to your repo name
 ```
 
 To deploy:
 
 1. Update the `base` in `vite.config.ts` to match your repository name:
 ```typescript
-base: '/your-repo-name/'
+base: '/starsite/'
 ```
 
 2. Build the project:
