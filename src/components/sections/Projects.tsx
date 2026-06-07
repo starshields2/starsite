@@ -198,10 +198,9 @@ const projects = [
     id: 3,
     title: "Yasuke: A Lost Descendant",
     description: "Afrofuturistic cyberpunk hack and slash...",
-    image: "https://via.placeholder.com/400x200",
+   image: "/PortfolioImages/YasukeCover.jpg",
     techStack: ["Unreal Engine 5", "Blueprints", "C++"],
-    //githubUrl: "https://github.com",
-    liveUrl: "https://www.youtube.com/watch?v=p1evCNCM9J0",
+    liveUrl: "https://store.steampowered.com/app/2446760/YASUKE_A_Lost_Descendant/",
   },
 ];
 
